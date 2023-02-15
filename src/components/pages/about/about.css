@@ -1,0 +1,14 @@
+.about-section {
+  display: flex;
+  flex-direction: horizontal;
+}
+
+.about-image {
+  height: 30rem;
+  margin: 2rem;
+}
+
+.about-description {
+  font-size: 2.5rem;
+  margin: 2rem;
+}

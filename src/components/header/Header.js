@@ -1,0 +1,17 @@
+import { Fragment } from "react";
+import "./header.css";
+const Header = (props) => {
+  return (
+    <Fragment>
+      <div>
+        <img
+          className="image"
+          src="data:image/png;base64,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"
+          alt="image-loading"
+        ></img>
+      </div>
+      <div className="name">Shivam Nayak</div>
+    </Fragment>
+  );
+};
+export default Header;
